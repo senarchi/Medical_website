@@ -56,6 +56,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+ 
 }
 
 /* Add this to your index.css or a global CSS file */
@@ -71,4 +72,10 @@ img {
 
 @keyframes l25 {
   100% { transform: rotate(1turn); }
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }

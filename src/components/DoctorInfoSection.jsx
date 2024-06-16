@@ -24,7 +24,7 @@ export const DoctorInfoSection = ({ onLoad }) => {
           className="md:w-1/2 p-6"
           initial={{ opacity: 0, x: 50 }}
           animate={inView ? { opacity: 1, x: 0 } : {}}
-          transition={{ duration: 8 }}
+          transition={{ duration: 3 }}
         >
           <h2 className="text-4xl font-bold mb-4 text-blue-500">
             About Dr. Archi Sen
@@ -46,12 +46,13 @@ export const DoctorInfoSection = ({ onLoad }) => {
           className="md:w-1/2 p-6"
           initial={{ opacity: 0, x: 50 }}
           animate={inView ? { opacity: 1, x: 0 } : {}}
-          transition={{ duration: 8 }}
+          transition={{ duration: 3 }}
         >
           <img
             src={doctorImage}
             alt="Dr. Archi Sen"
             className="rounded-lg shadow-lg"
+            style={{ boxShadow: '10px 10px 18px rgba(0, 0, 0, 0.5)' }}
             onLoad={() => setImageLoaded(true)}
           />
         </motion.div>
