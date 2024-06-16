@@ -27,10 +27,10 @@ export const DoctorInfoSection = ({ onLoad }) => {
           transition={{ duration: 3 }}
         >
           <h2 className="text-4xl font-bold mb-4 text-blue-500">
-            About Dr. Archi Sen
+            About Dr. XYZ
           </h2>
           <p className="text-lg mb-4 text-blue-400">
-            Dr. Archi Sen is a renowned physician dedicated to building a
+            Dr. XYZ is a renowned physician dedicated to building a
             healthy community. With years of experience and a compassionate
             approach, Dr. Sen has made significant contributions to public
             health and wellness.
@@ -50,7 +50,7 @@ export const DoctorInfoSection = ({ onLoad }) => {
         >
           <img
             src={doctorImage}
-            alt="Dr. Archi Sen"
+            alt="Dr. XYZ "
             className="rounded-lg shadow-lg"
             style={{ boxShadow: '10px 10px 18px rgba(0, 0, 0, 0.5)' }}
             onLoad={() => setImageLoaded(true)}
