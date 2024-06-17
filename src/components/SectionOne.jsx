@@ -23,8 +23,8 @@ const SectionOne = ({ onLoad }) => {
         <>
           <div className="absolute inset-0 bg-black opacity-50 z-20"></div>
           <div className="relative z-30 text-center">
-            <h1 className="text-white text-5xl font-bold">DR. XYZ</h1>
-            <p className="text-white text-2xl mt-4">Helping to build a healthy community</p>
+            <h1 className="text-white text-5xl font-bold">Dr. Ranjan Kamilya</h1>
+            <p className="text-white text-2xl mt-4"> Pioneering Orthopaedic Surgeon and Eastern India's First Robotic Knee Replacement Specialist.</p>
           </div>
         </>
       )}

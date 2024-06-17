@@ -27,10 +27,10 @@ export const DoctorInfoSection = ({ onLoad }) => {
           transition={{ duration: 3 }}
         >
           <h2 className="text-4xl font-bold mb-4 text-blue-500">
-            About Dr. XYZ
+          Dr. Ranjan Kamilya
           </h2>
           <p className="text-lg mb-4 text-blue-400">
-            Dr. XYZ is a renowned physician dedicated to building a
+          Dr. Ranjan Kamilya is a renowned physician dedicated to building a
             healthy community. With years of experience and a compassionate
             approach, Dr. Sen has made significant contributions to public
             health and wellness.
@@ -50,9 +50,9 @@ export const DoctorInfoSection = ({ onLoad }) => {
         >
           <img
             src={doctorImage}
-            alt="Dr. XYZ "
+            alt="Dr. Ranjan Kamilya "
             className="rounded-lg shadow-lg"
-            style={{ boxShadow: '10px 10px 18px rgba(0, 0, 0, 0.5)' }}
+            style={{ boxShadow: '10px 15px 15px rgba(0, 0, 0, 0.2)' }}
             onLoad={() => setImageLoaded(true)}
           />
         </motion.div>
