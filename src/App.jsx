@@ -6,6 +6,7 @@ import SectionOne from './components/SectionOne'
 import Map from './components/Map'
 import Footer from './components/Footer'
 import ServicesCard from './components/ServiceCard'
+import ReviewsSection from './components/ReviewsSection'
 function App() {
   const [sectionOneLoaded, setSectionOneLoaded] = useState(false);
   const [doctorInfoLoaded, setDoctorInfoLoaded] = useState(false);
@@ -20,6 +21,7 @@ function App() {
     <SectionOne onLoad = {()=> setSectionOneLoaded(true)}/>
     <DoctorInfoSection onLoad = {()=> setDoctorInfoLoaded(true)}/>
       <ServicesCard/>
+      <ReviewsSection/>
       <Map/>
       <Footer/>
     </>

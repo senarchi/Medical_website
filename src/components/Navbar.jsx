@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/images/logo.svg'
+import phone from '../assets/images/phone.svg'
 import {Menu, X} from 'lucide-react';
 import { useState } from 'react';
 
@@ -43,6 +44,11 @@ export const Navbar = () => {
             <a href='#' onClick={scrollToFooter}>Contact</a>
           </li>
         </ul>
+
+        <div className="flex items-center flex-shrink-0">
+          <img className='h-5 w-5 mr-5' src={phone} alt="call" />
+          <span>033 4040 8070</span>
+          </div>
 
         <div className="lg:hidden md:flex flex-col justify-end">
           <button onClick={toggleNavbar}>{mobileDrawerOpen?<X/> : <Menu/>}</button>
