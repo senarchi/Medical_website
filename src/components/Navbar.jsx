@@ -78,7 +78,7 @@ export const Navbar = () => {
           {/* <span className='text-xl tracking-tight text-blue-400'>Medical</span> */}
         </div>
 
-        <ul className='hidden lg:flex ml-14 space-x-12 text-cyan-500'>
+        <ul className='hidden lg:flex ml-14 space-x-12 text-black-300 bold-text'>
           <li>
             <a href='#' onClick={scrollToHome}>Home</a>
           </li>
@@ -98,7 +98,7 @@ export const Navbar = () => {
 
         <div className="hidden lg:flex items-center flex-shrink-0">
           <img className='h-5 w-5 mr-5' src={phone} alt="call" />
-          <span className='text-cyan-500'>033 4040 8070</span>
+          <span className='text-black-300'>033 4040 8070</span>
           </div>
 
         <div className="lg:hidden md:flex flex-col justify-end">
