@@ -13,7 +13,7 @@ const ServiceCard = () => {
   }, []);
 
   return (
-    <section className="py-12 bg-gray-100 flex justify-center items-center min-h-screen">
+    <section id='service' className="py-12 bg-gray-100 flex justify-center items-center min-h-screen">
       <div className="containercard mx-auto flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">
         
         <div className="w-full md:w-1/2 lg:w-1/2 bg-white shadow-lg rounded-lg overflow-hidden h-90">
@@ -25,7 +25,7 @@ const ServiceCard = () => {
             <h2 className="text-3xl font-bold text-blue-500 mb-4">Services</h2>
           </div>
           <div className="flex-grow">
-            <ul className="service-list list-disc list-inside text-blue-700 h-full flex flex-col justify-evenly">
+            <ul className="service-list list-disc list-inside text-cyan-600 h-full flex flex-col justify-evenly">
               <li className="opacity-0 py-2.5">Total Knee Replacement</li>
               <li className="opacity-0 py-2.5 whitespace-nowrap">Unicompartmental (Partial) Knee Replacement</li>
               <li className="opacity-0 py-2.5">Total Hip Replacement</li>

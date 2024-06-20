@@ -18,7 +18,7 @@ export const DoctorInfoSection = ({ onLoad }) => {
   }, [imageLoaded, onLoad]);
 
   return (
-    <section ref={ref} className="py-12 bg-gray-100">
+    <section id="about" ref={ref} className="py-12 bg-gray-100">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <motion.div
           className="md:w-1/2 p-6"
@@ -29,7 +29,7 @@ export const DoctorInfoSection = ({ onLoad }) => {
           <h2 className="text-4xl font-bold mb-4 text-blue-500">
           Dr. Ranjan Kamilya
           </h2>
-          <p className="text-lg mb-4 text-blue-400">
+          <p className="text-lg mb-4 text-cyan-600">
           Dr. Ranjan Kamilya, born in Chandrakona, West Bengal, is a Senior Consultant Orthopaedic Surgeon at Apollo Gleneagles Hospital, Kolkata. He completed his medical education at JIPMER, Pondicherry, and PGIMER, Chandigarh. With extensive training in the UK, he specialized in hip and knee replacement, trauma surgery, and minimally invasive procedures. Known for his dedication and compassionate patient care, Dr. Kamilya excels in complex surgeries such as pelvic and acetabular fracture fixation. He continues to stay updated with advancements in orthopaedics to provide the best care for his patients.
           </p>
          

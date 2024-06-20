@@ -24,14 +24,14 @@ const ReviewCard = ({ name, review }) => {
   return (
     <div className="frosted-glass shadow-lg rounded-lg p-6 my-4">
       <h3 className="text-2xl font-semibold text-blue-500">{name}</h3>
-      <p className="mt-4 text-blue-800">{review}</p>
+      <p className="mt-4 text-cyan-600">{review}</p>
     </div>
   );
 };
 
 const ReviewsSection = () => {
   return (
-    <section className="py-12 bg-gray-100 flex flex-col items-center">
+    <section id='section' className="py-12 bg-gray-100 flex flex-col items-center">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-blue-500 mb-8 text-center">Patient Reviews</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">

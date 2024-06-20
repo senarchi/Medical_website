@@ -11,7 +11,7 @@ const SectionOne = ({ onLoad }) => {
   }, [imageLoaded, onLoad]);
 
   return (
-    <section className="relative h-screen flex items-center justify-center">
+    <section id='home' className="relative h-screen flex items-center justify-center">
       {!imageLoaded && <div className="loader"></div>}
       <img 
         src={baseImg} 
